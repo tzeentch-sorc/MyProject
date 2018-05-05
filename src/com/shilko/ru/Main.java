@@ -24,16 +24,17 @@ class Binary {
 public class Main {
     public static void main(String[] args) {
         try (Scanner in = new Scanner(new FileReader("Словарь.txt"));
-             PrintWriter out = new PrintWriter(new FileWriter("ОСОБЕННОСТИ_РАС.txt"));) {
+             PrintWriter out = new PrintWriter(new FileWriter("РАСЫ.txt"));) {
             List<String> list = new ArrayList<>();
             for (int i = 0; i < 125000; ++i)
                 list.add(in.nextLine());
-            out.println("INSERT INTO ОСОБЕННОСТИ_РАС(НАЗВАНИЕ_ОСОБЕННОСТИ,ОПИСАНИЕ ОСОБЕННОСТИ) VALUES");
+            out.println("INSERT INTO РАСЫ(НАЗВАНИЕ_РАСЫ) VALUES");
             for (int i = 0; i < 250000; ++i) {
                 Random random = new Random();
                 String name = list.get(random.nextInt(125000)) + " " + list.get(random.nextInt(125000));
-                String describing = list.get(random.nextInt(125000)) + " " + list.get(random.nextInt(125000)) + " " + list.get(random.nextInt(125000)) + " " + list.get(random.nextInt(125000)) + " " + list.get(random.nextInt(125000));
-                out.println("\t('"+name+"','"+describing+"'),");
+                //String describing = list.get(random.nextInt(125000)) + " " + list.get(random.nextInt(125000)) + " " + list.get(random.nextInt(125000)) + " " + list.get(random.nextInt(125000)) + " " + list.get(random.nextInt(125000));
+                //out.println("\t('"+name+"','"+describing+"'),");
+                out.println("\t('"+name+"'),");
             }
         } catch (Exception e) {
             e.printStackTrace();
