@@ -33,7 +33,7 @@ public class Main {
                 Random random = new Random();
                 String name = list.get(random.nextInt(125000)) + " " + list.get(random.nextInt(125000));
                 String describing = list.get(random.nextInt(125000)) + " " + list.get(random.nextInt(125000)) + " " + list.get(random.nextInt(125000)) + " " + list.get(random.nextInt(125000)) + " " + list.get(random.nextInt(125000));
-                out.println("\t('"+name+"','"+describing+"')");
+                out.println("\t('"+name+"','"+describing+"'),");
             }
         } catch (Exception e) {
             e.printStackTrace();

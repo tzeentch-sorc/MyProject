@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d6de6a9-836e-4f07-8722-726b9a331038" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyProject/com/shilko/ru/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyProject/com/shilko/ru/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/shilko/ru/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/shilko/ru/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -20,8 +18,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/shilko/ru/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="32" column="45" lean-forward="true" selection-start-line="32" selection-start-column="45" selection-end-line="32" selection-end-column="45" />
+            <state relative-caret-position="223">
+              <caret line="31" column="46" lean-forward="true" selection-start-line="31" selection-start-column="46" selection-end-line="31" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -203,12 +201,20 @@
       <workItem from="1522531467923" duration="1370000" />
       <workItem from="1522959120984" duration="23000" />
       <workItem from="1523643074390" duration="3425000" />
-      <workItem from="1525531862608" duration="1601000" />
+      <workItem from="1525531862608" duration="2022000" />
     </task>
+    <task id="LOCAL-00001" summary="Курсач по БД, заполнение особенности_рас">
+      <created>1525534264656</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1525534264656</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="110925000" />
+    <option name="totallyTimeSpent" value="111346000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="735" extended-state="6" />
@@ -249,6 +255,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Курсач по БД, заполнение особенности_рас" />
+    <option name="LAST_COMMIT_MESSAGE" value="Курсач по БД, заполнение особенности_рас" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -397,8 +407,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/shilko/ru/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="32" column="45" lean-forward="true" selection-start-line="32" selection-start-column="45" selection-end-line="32" selection-end-column="45" />
+        <state relative-caret-position="223">
+          <caret line="31" column="46" lean-forward="true" selection-start-line="31" selection-start-column="46" selection-end-line="31" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
